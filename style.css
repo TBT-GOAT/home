@@ -96,4 +96,5 @@ body {
   position: fixed;
   width: 6vh;
   bottom: 20px;
+  left: calc(50% - 6vh/2);
 }

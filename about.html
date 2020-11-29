@@ -5,9 +5,14 @@
         <title>ABOUT:SHOTATABATA</title>
         <link rel="stylesheet" href="style.css">
         <style>
-            .top-wrapper {
+            .wrapper1 {
                 display: flex;
                 flex-direction: row-reverse;
+                justify-content: space-between;
+            }
+            .wrapper2 {
+                display: flex;
+                flex-direction: column;
                 justify-content: space-between;
             }
             #facephoto {
@@ -25,7 +30,7 @@
             }
             table {
                 margin-left: 1em;
-                font-size: 12pt;
+                font-size: 16px;
                 line-height: 1.5em;
             }
             .event {
@@ -41,15 +46,30 @@
             }
             ul.ABOUT_text {
                 margin-left: 2em;
-                font-size: 12pt;
+                font-size: 16px;
                 line-height: 1.5em;
             }
         </style>
     </head>
     <body>
+        <div class="global_navigation">
+            <div class="homebutton_element">
+                <a href="index.html">
+                    <img class="homebutton" src="homebutton.png" alt="" />
+                </a>
+            </div>
+            <div class="tab">
+                <a href="about.html">ABOUT</a>
+                <a href="research.html">RESEARCH</a>
+                <a href="tips.html">TIPS</a>
+                <a href="software.html">SOFTWARE</a>
+                <a href="blog/index.html">BLOG</a>
+            </div>
+        </div>
+        <div class="global_navigation_space"></div>
         <p class="heading">ABOUT</p>
         <div class="main">
-            <div class="top-wrapper">
+            <div class="wrapper1">
                 <p><img id="facephoto" src="facephoto.jpg" alt="" /></p>
                 <div>
                     <p id="ABOUT_name">田端祥太</p>
@@ -93,32 +113,34 @@
                     </table>
                 </div>
             </div>
-            <p class="ABOUT_heading">発表論文</p>
-            <ul class="ABOUT_text">
-                <li style = "list-style-type:disc;">田端祥太，新井崇俊，本間健太郎，今井 公太郎，ランダムドロネー網を用いた重み付きシュタイナー問題の発見的解法－大型ドローン航空路網導入に伴う用地補償の最小化－，都市計画論文集， 55(3)，pp．459–466，2020</li>
-                <li style = "list-style-type:disc;">田端祥太，新井崇俊，本間健太郎，今井 公太郎，Desire pathの再現に基づく歩行環境が歩行軌跡に与える影響の解明－重み付きランダムドロネー網上の最短路探索シミュレーション－，都市計画論文集， 54(3)，pp．1562–1569，2019</li>
-            </ul>
-            <p class="ABOUT_heading">国内学会における発表</p>
-            <ul class="ABOUT_text">
-                <li style = "list-style-type:disc;">田端祥太，新井崇俊，本間健太郎，今井 公太郎，ランダムドロネー網を用いた重み付きシュタイナー問題の発見的解法－大型ドローン航空路網導入に伴う用地補償の最小化－，日本都市計画学会全国大会，37，名古屋，11・2020</li>
-                <li style = "list-style-type:disc;">田端祥太，新井崇俊，本間健太郎，今井 公太郎，インフラ敷設費用の最小化問題の発見的解法，日本建築学会大会学術講演梗概集，11038，千葉，9・2020</li>
-                <li style = "list-style-type:disc;">田端祥太，新井崇俊，本間健太郎，今井 公太郎，Desire pathの再現に基づく歩行環境が歩行軌跡に与える影響の解明－重み付きランダムドロネー網上の最短路探索シミュレーション－，日本都市計画学会全国大会，177，横浜，11・2019</li>
-                <li style = "list-style-type:disc;">田端祥太，新井崇俊，本間健太郎，今井公太郎，Desire path の推定モデル－集合住宅を事例として－，日本建築学会大会学術講演梗概集，5353，金沢，9・2019</li>
-                <li style = "list-style-type:disc;">新井崇俊，今井公太郎，田端祥太，来客者の移動手段を考慮した空き店舗の立地評価モデル，日本建築学会大会学術講演梗概集，7452，金沢，9・2019</li>
-                <li style = "list-style-type:disc;">田端祥太，本間健太郎，新井崇俊，今井公太郎，重み付き最短路探索を用いた“けもの道”の空間特性の研究，日本建築学会大会学術講演梗概集，5258，仙台，9・2018</li>
-            </ul>
-            <p class="ABOUT_heading">受賞歴</p>
-            <ul class="ABOUT_text">
-                <li style = "list-style-type:disc;">日本都市計画学会2019 年年間優秀論文賞授賞（授賞数6 編，全204 編），5・2020</li>
-            </ul>
-            <p class="ABOUT_heading">獲得資金等</p>
-            <ul class="ABOUT_text">
-                <li style = "list-style-type:disc;">日本学術振興会特別研究員DC2(4・2021～3・2023)</li>
-                <li style = "list-style-type:disc;">日本学生支援機構第1種奨学金返還免除内定</li>
-                <li style = "list-style-type:disc;">2020 年度東京大学大学院工学系研究科博士課程学生特別リサーチ・アシスタントAタイプ採用</li>
-                <li style = "list-style-type:disc;">第58 回（2019 年度）竹中育英会建築助成金交付者採択，「等方的平面ネットワークを用いた障害付きシュタイナー問題の近似解法」，都市計画部門</li>
-                <li style = "list-style-type:disc;">2019 年度東京大学大学院工学系研究科博士課程学生特別リサーチ・アシスタントBタイプ採用</li>
-            </ul>
+            <div class="wrapper2">
+                <p class="ABOUT_heading">発表論文</p>
+                <ul class="ABOUT_text">
+                    <li style = "list-style-type:disc;">田端祥太，新井崇俊，本間健太郎，今井 公太郎，ランダムドロネー網を用いた重み付きシュタイナー問題の発見的解法－大型ドローン航空路網導入に伴う用地補償の最小化－，都市計画論文集， 55(3)，pp．459–466，2020</li>
+                    <li style = "list-style-type:disc;">田端祥太，新井崇俊，本間健太郎，今井 公太郎，Desire pathの再現に基づく歩行環境が歩行軌跡に与える影響の解明－重み付きランダムドロネー網上の最短路探索シミュレーション－，都市計画論文集， 54(3)，pp．1562–1569，2019</li>
+                </ul>
+                <p class="ABOUT_heading">国内学会における発表</p>
+                <ul class="ABOUT_text">
+                    <li style = "list-style-type:disc;">田端祥太，新井崇俊，本間健太郎，今井 公太郎，ランダムドロネー網を用いた重み付きシュタイナー問題の発見的解法－大型ドローン航空路網導入に伴う用地補償の最小化－，日本都市計画学会全国大会，37，名古屋，11・2020</li>
+                    <li style = "list-style-type:disc;">田端祥太，新井崇俊，本間健太郎，今井 公太郎，インフラ敷設費用の最小化問題の発見的解法，日本建築学会大会学術講演梗概集，11038，千葉，9・2020</li>
+                    <li style = "list-style-type:disc;">田端祥太，新井崇俊，本間健太郎，今井 公太郎，Desire pathの再現に基づく歩行環境が歩行軌跡に与える影響の解明－重み付きランダムドロネー網上の最短路探索シミュレーション－，日本都市計画学会全国大会，177，横浜，11・2019</li>
+                    <li style = "list-style-type:disc;">田端祥太，新井崇俊，本間健太郎，今井公太郎，Desire path の推定モデル－集合住宅を事例として－，日本建築学会大会学術講演梗概集，5353，金沢，9・2019</li>
+                    <li style = "list-style-type:disc;">新井崇俊，今井公太郎，田端祥太，来客者の移動手段を考慮した空き店舗の立地評価モデル，日本建築学会大会学術講演梗概集，7452，金沢，9・2019</li>
+                    <li style = "list-style-type:disc;">田端祥太，本間健太郎，新井崇俊，今井公太郎，重み付き最短路探索を用いた“けもの道”の空間特性の研究，日本建築学会大会学術講演梗概集，5258，仙台，9・2018</li>
+                </ul>
+                <p class="ABOUT_heading">受賞歴</p>
+                <ul class="ABOUT_text">
+                    <li style = "list-style-type:disc;">日本都市計画学会2019 年年間優秀論文賞授賞（授賞数6 編，全204 編），5・2020</li>
+                </ul>
+                <p class="ABOUT_heading">獲得資金等</p>
+                <ul class="ABOUT_text">
+                    <li style = "list-style-type:disc;">日本学術振興会特別研究員DC2(4・2021～3・2023)</li>
+                    <li style = "list-style-type:disc;">日本学生支援機構第1種奨学金返還免除内定</li>
+                    <li style = "list-style-type:disc;">2020 年度東京大学大学院工学系研究科博士課程学生特別リサーチ・アシスタントAタイプ採用</li>
+                    <li style = "list-style-type:disc;">第58 回（2019 年度）竹中育英会建築助成金交付者採択，「等方的平面ネットワークを用いた障害付きシュタイナー問題の近似解法」，都市計画部門</li>
+                    <li style = "list-style-type:disc;">2019 年度東京大学大学院工学系研究科博士課程学生特別リサーチ・アシスタントBタイプ採用</li>
+                </ul>
+            </div>
         </div>
         <div class="contact">
             <p> 
@@ -126,10 +148,5 @@
                 東京大学大学院工学系研究科建築学専攻<br>
                 e-mail:&nbsp;jan4goat1993@gmail.com
             </p>
-        </div>
-        <div class="homebutton_element"></div>
-            <a href="index.html">
-                <img class="homebutton" src="homebutton.png" alt="" />
-            </a>
         </div>
     </body>

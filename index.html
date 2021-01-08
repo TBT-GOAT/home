@@ -14,7 +14,14 @@
             #HOME_pic img {
                 position: absolute;
                 width: 100%;
-                opacity: 0.65;
+                /* opacity: 0.65; */
+                z-index: -1;
+            }
+            #cover {
+                background-color: #000000;
+                opacity: 0.35;
+                width: 100%;
+                height: 100%;
             }
             h1 {
                 position: absolute;
@@ -29,20 +36,20 @@
                 margin-left: auto;
                 margin-right: auto;
                 }
-            #HOME_name {color:  #000000;
+            #HOME_name {color:  #ffffff;
                         position: absolute; 
                         left: 3vw; 
                         bottom: 9vw; 
                         font-size: 5vw;
                         font-weight: bold;}
-            #HOME_name2 {color:  #000000;
+            #HOME_name2 {color:  #ffffff;
                          position: absolute;
                          left: 3vw; 
                          bottom: 2vw; 
                          font-size: 3vw;
                          font-weight: bold;
                          line-height: 1em;}
-            #HOME_tab {color:  #000000;
+            #HOME_tab {color:  #ffffff;
                        position: absolute;
                        right: 3vw; 
                        top: 2vw; 
@@ -50,7 +57,7 @@
                        /* font-weight: bold; */
                        line-height: 1.3em;}
             #HOME_tab li a {
-                color: #000000;
+                color: #ffffff;
                 font-weight: bold;
             }
             #HOME_information {
@@ -93,6 +100,7 @@
                 <h1>田端祥太　建築数理　都市計画数理　Shota Tabata Mathematical Researcher of Architecture and Urban Planning</h1>
 
                 <p><img src="Chichibu1.0_1.0_1.8.png" alt="" /></p>
+                <div id="cover"></div>
                 <p id="HOME_name">SHOTA TABATA<div id="HOME_name2">Mathematical Researcher of<br>Architecture and Urban Planning</div></p>
                 <!-- pタグの中にspanタグでHOME_nameとHOME_name2を一緒にしちゃって、font-sizeとline-heightで
                 調整．font-sizeはvmax -->

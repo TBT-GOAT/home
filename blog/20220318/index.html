@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>スコープ外の外</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            /* .blog_text {
+                margin-left: 1em;
+            } */
+            #blog_title {
+                font-weight: bold;
+                font-size: 20px;
+            }
+            #blog_time {
+                color: gray;
+            }
+            b {
+                font-weight: bold;
+                font-size: large;
+            }
+
+            table {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                border-collapse: collapse;
+                font-size: 14px;
+            }
+            th {
+                border-color: gray;
+                border-style: solid;
+                border-width: 2.5px 0px;
+                padding-top: 0.3em;
+                padding-bottom: 0.3em;
+                padding-left: 1em;
+                padding-right: 1em;
+                vertical-align: middle;
+                text-align: center;
+            }
+            tr {
+                border-color: gray;
+                border-style: solid;
+                border-width: 1px 0px;
+            }
+            td {
+                padding-top: 0.3em;
+                padding-bottom: 0.3em;
+                padding-left: 1em;
+                padding-right: 1em;
+                vertical-align: middle;
+                text-align: center;
+            }
+            strong {
+                font-size: 20px;
+                font-weight: bold;
+            }
+            #fig1 {
+                width: 25%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #fig1 img{
+                width: 100%;
+                display: block;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #fig2 {
+                width: 35%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #fig2 img{
+                width: 100%;
+                display: block;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            /* #fig p{
+                width: 50%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            } */
+        </style>
+    </head>
+    <body>
+        <div class="global_navigation">
+            <div class="homebutton_element">
+                <a href="../../index.html">
+                    <img class="homebutton" src="homebutton.png" alt="" />
+                </a>
+            </div>
+            <div class="tab">
+                <a href="../../about.html">ABOUT</a>
+                <a href="../../research.html">RESEARCH</a>
+                <a href="../../tips/index.html">TIPS</a>
+                <a href="../../software.html">SOFTWARE</a>
+                <a href="../index.html">BLOG</a>
+            </div>
+        </div>
+        <div class="global_navigation_space"></div>
+        <p class="heading">BLOG</p>
+        <div class="main">
+            <p>
+                <h1 id="blog_title">スコープ外の外</h1>
+                <p id="blog_time">投稿｜2022年01月27日&nbsp;&nbsp;更新｜</p>
+                <p>
+                    <br>
+                    ついに，博士論文を提出しました．
+                    修士の頃から数えて5年にわたる研究成果の集大成であり，感慨深いものがあります．
+                    何回も見直しましたが，まだどこかにミスが残っているかもしれないと恐々としております．
+                    この不安はどこまでやってもぬぐい切れないものとして受け入れるしかなさそうです．
+                    一方で，奇妙な期待感もあります．
+                    博士論文はわたしの手を離れて独り歩きします．思わぬ読者に読まれて思いもしない批評が下されるかもしれません．
+                    わたしの知らないところで，誰かの知的好奇心を刺激しているかもしれないと考えると，少しわくわくもします．
+
+                    <br><br>
+
+                    博士課程を終えるにあたって，博士課程について思うところを何回かに分けて書いていこうと思います．
+                    今回は，一番記憶に新しい博士論文の本審査について．
+                                        
+                    <br><br>
+
+                    博士論文は，本審査という過程の下，多くの先生方の協力を得て完成します．
+                    他大学の他学科の先生を審査委員に迎えて議論を重ね，修正を繰り返します．
+                    もちろん，本審査に入る前の第0版から持てる力を全て出し切って執筆しているので，それに対して修正意見を頂けたとて，
+                    それを上手に反映できないことも間々あります．むしろ改悪になってしまうことすらあり，
+                    自身の至らなさにかなり落ち込んだものです．
+
+                    <br><br>
+
+                    さすがは一線で研究されている先生方ということもあって，いただける意見は広く深いものばかりでした．
+                    それらに対する理解が足らず，前述のようになってしまうこともありましたが，基本的には，議論自体を楽しむことができていたように思います．
+                    そんななかで，”スコープ外の外”を知ることができるのが，他の人と議論することの大事なことだと感じるようになりました．
+                    そして，博士論文の本審査は，”スコープ外の外”を明らかにして論を整理し直す行為を濃密に行う贅沢な時間だったと，今になって思います．
+                    
+                    <br><br>
+
+                    論文を書くにあたっては，「どんな前提で何をどこまで明らかにするのか」を表明しなければなりません．
+                    これがスコープ内です．それに対してスコープ外は，当然スコープ内に無いものすべてになります．
+                    なので，スコープ内を完全に記述できていればスコープ外を敢えて表明する必要はないことになりそうです．
+                    しかしながら，話はそう単純ではありません．
+                    スコープ内を完全に記述できているかどうかは，読み手が判断することはできません．スコープ内の表明に対して，
+                    あれやこれは研究対象に含まれているのかという疑問の余地が常にあります．これを解消するために，
+                    スコープ外であることを表明した方が良い事柄があります．
+                    スコープ内外の境界に向かって，内側からと外側から，両方向から迫るようなイメージでしょうか．
+                    
+                    <br><br>
+                    <div id="fig1">
+                        <img src="IMG_1923.jpg" alt="" />
+                    </div>
+                    <br><br>  
+
+                    ここまでは，スコープ内とスコープ外，両方に自覚的になってそれらを表明する必要があるというお話であり，一人でできます．
+                    さて，スコープ外にも自覚的にならざるを得なくなった今，スコープ外のなかで自覚されていない領域，
+                    ”スコープ外の外”が生まれてしまいました．自覚できる領域を超えているので，これの取り扱いは一人では不可能なように思われます．
+                    にも関わらず，読み手のわかりやすさのために，言及されるべき重要な事柄を含んでいることがあります．
+                    それゆえに，他の人と議論して”スコープ外の外”を補うことが必要なのです．
+                    他の人との議論を通じて明らかになった”スコープ外の外”から，スコープ外に必要なだけ取り入れ，時にはスコープ内に含みながら，
+                    論文のスコープ内・外をより明瞭にすることができます．
+                    ”スコープ外の外”は自分よりも広い世界を持っている人からの方が提供されやすく，
+                    自分よりも熟練した研究者と顔を突き合わせることができる博士論文の本審査という場は絶好の機会なのです．
+                    本審査を経た完成版は，第0版よりもスコープ内・スコープ外のことに対してより自覚的で，
+                    わかりやすく洗練されたものになっていると我ながら思います．
+
+                    <br><br>
+                    <div id="fig2">
+                        <img src="IMG_1924.jpg" alt="" />
+                    </div>
+                    <br><br> 
+                    
+                    とはいえ，スコープ内とスコープ外の境界は，どうやったって穴があるのでしょう．森羅万象を理解している人はいないので，
+                    ”スコープ外の外”はどんな人と議論を重ねても消えることはありません．
+                    過去の研究の”スコープ外の外”を認識し埋めていくことが”巨人の肩に乗る”ということなのでしょうし，
+                    どうやったって”スコープ外の外”は埋まらないと理解していることが研究者の在り方なのだと思います．
+                    
+                    <br><br>
+
+                    博士課程に在籍して入れば，いずれは本審査を迎えます．今日お話ししたようなことを考えていなくても，本審査はやってきます．
+                    わたしも，文字に起こしてみただけで，本審査の最中にはこんなこと考えていなかったと思いますし，それでも提出にはこぎつけました．
+                    でも，こういうことを考えた上で本審査に臨んでいたら，議論の仕方も異なっていたのではないかと思う部分もあります．
+                    本審査は英語ではDefenceと言いますが，指摘に対して守りだけでなく建設的な議論を引き出せるような態度もあり得たのではないかと．
+                    これから審査を迎える人には，研究や執筆で手一杯かもしれませんが，
+                    どうしたら審査委員の方々の持つ”スコープ外の外”を引き出せるのかということも念頭に置きながらプレゼンや議論をしてもらって，
+                    より実りある博士論文に仕上げていただきたいと願います．
+
+                    <br><br>
+                    
+                </p>
+            </p>
+        </div>
+        <div class="contact">
+            <p> 
+                田端祥太<br>
+                e-mail:&nbsp;tbtgoat.contact@gmail.com
+            </p>
+        </div>
+        
+    </body>

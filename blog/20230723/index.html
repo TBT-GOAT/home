@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ある種の査読コメントへのモヤッと感</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            /* .blog_text {
+                margin-left: 1em;
+            } */
+            #blog_title {
+                font-weight: bold;
+                font-size: 20px;
+            }
+            #blog_time {
+                color: gray;
+            }
+            b {
+                font-weight: bold;
+                font-size: large;
+            }
+
+            table {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                border-collapse: collapse;
+                font-size: 14px;
+            }
+            th {
+                border-color: gray;
+                border-style: solid;
+                border-width: 2.5px 0px;
+                padding-top: 0.3em;
+                padding-bottom: 0.3em;
+                padding-left: 1em;
+                padding-right: 1em;
+                vertical-align: middle;
+                text-align: center;
+            }
+            tr {
+                border-color: gray;
+                border-style: solid;
+                border-width: 1px 0px;
+            }
+            td {
+                padding-top: 0.3em;
+                padding-bottom: 0.3em;
+                padding-left: 1em;
+                padding-right: 1em;
+                vertical-align: middle;
+                text-align: center;
+            }
+            strong {
+                font-size: 20px;
+                font-weight: bold;
+            }
+            em {
+                font-weight: bold;
+            }
+            #fig {
+                width: 35%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #fig img{
+                width: 100%;
+                display: block;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            /* #fig p{
+                width: 50%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            } */
+        </style>
+    </head>
+    <body>
+        <div class="global_navigation">
+            <div class="homebutton_element">
+                <a href="../../index.html">
+                    <img class="homebutton" src="homebutton.png" alt="" />
+                </a>
+            </div>
+            <div class="tab">
+                <a href="../../about.html">ABOUT</a>
+                <a href="../../research.html">RESEARCH</a>
+                <a href="../../tips/index.html">TIPS</a>
+                <a href="../../software.html">SOFTWARE</a>
+                <a href="../index.html">BLOG</a>
+            </div>
+        </div>
+        <div class="global_navigation_space"></div>
+        <p class="heading">BLOG</p>
+        <div class="main">
+            <p>
+                <h1 id="blog_title">ある種の査読コメントへのモヤッと感</h1>
+                <p id="blog_time">投稿｜2023年07月23日&nbsp;&nbsp;更新｜</p>
+                <p>
+                    <br>
+                    論文誌に論文を投稿し，編集者による採否の評価をくぐり抜けたあと，他の研究者からの査読があります．
+                    査読とは，投稿された論文に対して，論文誌に掲載する価値があるかを査読者が評価し，掲載する価値を生む可能性があるのなら，
+                    そのために必要な事項を投稿者にコメントすることです．投稿者は査読者のコメントを受けて原稿を修正します．
+                    査読者のコメントへの対応がうまく行かない場合は，掲載が却下されるので，投稿者は査読者のコメントに対して慎重にディフェンスします．
+                    この作業が，なかなかにしんどいです．ただ，的を得たコメントに対して応えられたあとの原稿は，初稿よりも格段に質が上がったと感じられます．
+                    なので，痛いところをついてくる厳しい査読コメントは，大変有難いものなのです．
+                    <br><br>
+                    ところで，査読の際，投稿者と査読者がお互いの身元を明かさないようにすることが多いです．この査読の形式をダブルブラインドと読んだりします．
+                    ダブルブラインドの形式を取るのは，論文誌に掲載される論文の質を担保するためです．
+                    投稿者が査読者の顔を知っているとなれば，査読者は落とした論文の投稿者と顔を合わせにくくなることを恐れて手心を加えるかもしれませんし，
+                    査読者が投稿者の顔を知っているとなれば，投稿者の経歴や業績といったバイアスを持って査読するおそれが出てきます．
+                    査読者のコメントの質を担保することで，修正後の論文の質を上げるために，ダブルブラインドの形式がしばしば取られるわけです．
+                    <br><br>
+                    お互いの顔がわからない，という体を取っていますが，査読者は投稿者の身元を推し量りやすいとされています．
+                    その理由として，専門が細分化されているためにその文脈の研究に携わっている研究者が限られること，
+                    引用されている論文の著者のいずれかが当該論文の著者である可能性が高いこと，文体や手法にその人らしさが表れること，などが挙げられます．
+                    どの理由も避けようがないですし，そうであるからこそ論文が面白いとも言えるので，致し方ないかと．
+                    仮に査読者が投稿者の身元をわかったところで，投稿者が査読者の身元をわかっていないのであれば，
+                    コメントを妥協する理由は無いようにも思いますし（査読者が投稿者の身元がわかった状態で行う査読の形式をシングルブラインドと言います）．
+                    一方で，投稿者が査読者の身元を知るリスクについての言及は見たことがありませんし，実際ほとんどないのでしょう．
+                    <br><br>
+                    そう今まで思っていたのですが，査読コメントから「この人が査読者では？」と疑念を持ってしまったことがあります．
+                    その査読コメントはリファレンスの不備を指摘するものだったのですが，引用するように提案のあった論文の著者が全部同じだったのです．
+                    そのコメントに対応することで，研究の文脈をより広く押さえることになり，読者にとっても有意義な修正になりました．
+                    ただ，なんとなくモヤッとした気持ちを覚えました．このモヤッと感，まだ上手く消化できていません．
+                    <br><br>
+                    査読者にとっては，査読に携わることで，自分の論文に対する引用数を伸ばすチャンスになること．
+                    投稿者にとっては，研究の文脈を広く押さえると同時に，査読を切り抜け掲載のチャンスを拡げることになる．
+                    お互いウィンウィンなのでいいじゃないかと思うことで，今は自分を納得させています．
+                    が，この種の査読コメントがエスカレートすると，
+                    査読者がリジェクトというパワーにかこつけて，開き直って自分の身元が推量されるとしても自分の業績に有利になるような査読コメントをし，
+                    投稿者はリジェクトされたくないから，従順に査読コメントに対応する．すべてが利己的な目的で進んでいくような．．．
+                    <br><br>
+                    あれ，ダブルブラインドって投稿者と査読者がお互いに忖度しないようにして論文の質を上げるためのものだったのではなかったか？
+                    <br><br>
+                </p>
+            </p>
+        </div>
+        <div class="contact">
+            <p> 
+                田端祥太<br>
+                e-mail:&nbsp;tbtgoat.contact@gmail.com
+            </p>
+        </div>
+        
+    </body>

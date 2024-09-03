@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>なんちゃってデータドリブンにならないように</title>
+        <link rel="stylesheet" href="../../design/style.css">
+        <style>
+            /* .blog_text {
+                margin-left: 1em;
+            } */
+            #blog_title {
+                font-weight: bold;
+                font-size: 20px;
+            }
+            #blog_time {
+                color: gray;
+            }
+            b {
+                font-weight: bold;
+                font-size: large;
+            }
+
+            table {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                border-collapse: collapse;
+                font-size: 14px;
+            }
+            th {
+                border-color: gray;
+                border-style: solid;
+                border-width: 2.5px 0px;
+                padding-top: 0.3em;
+                padding-bottom: 0.3em;
+                padding-left: 1em;
+                padding-right: 1em;
+                vertical-align: middle;
+                text-align: center;
+            }
+            tr {
+                border-color: gray;
+                border-style: solid;
+                border-width: 1px 0px;
+            }
+            td {
+                padding-top: 0.3em;
+                padding-bottom: 0.3em;
+                padding-left: 1em;
+                padding-right: 1em;
+                vertical-align: middle;
+                text-align: center;
+            }
+            strong {
+                font-size: 20px;
+                font-weight: bold;
+            }
+            em {
+                font-weight: bold;
+            }
+            #fig {
+                width: 35%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #fig img{
+                width: 100%;
+                display: block;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            /* #fig p{
+                width: 50%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            } */
+            #func{
+                margin-left: 3rem;
+                line-height: 2;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="global_navigation">
+            <div class="homebutton_element">
+                <a href="../../index.html">
+                    <img class="homebutton" src="../../design/homebutton.png" alt="" />
+                </a>
+            </div>
+            <div class="tab">
+                <a href="../../about/index.html">ABOUT</a>
+                <a href="../../research/index.html">RESEARCH</a>
+                <a href="../../tips/index.html">TIPS</a>
+                <a href="../../software/index.html">SOFTWARE</a>
+                <a href="../../blog/index.html">BLOG</a>
+            </div>
+        </div>
+        <div class="global_navigation_space"></div>
+        <p class="heading">BLOG</p>
+        <div class="main">
+            <p>
+                <h1 id="blog_title">なんちゃってデータドリブンにならないように</h1>
+                <p id="blog_time">投稿｜2024年05月01日&nbsp;&nbsp;更新｜</p>
+                <p>
+                    <br>
+                    "xxxの可視化"や"yyyの見える化"という言い方が巷に溢れています．
+                    流行り言葉のようになっていて，データを使った問題解決が話題になるときには，
+                    必ずと言っていいほど登場する言葉かと思います．
+                    その背景には，人間活動が情報技術と切り離せなくなったために自ずと大量のデータが生成されており，
+                    それを活用すればより便利な社会を実現できるという思想が浸透しているからだと推察します．
+                    その思想を実践するためには，大量にあるデータをそのまま理解することは難しいので，
+                    "可視化"，"見える化"をして理解できる形に落とし込むことが必要になるわけです．
+                    最近では，膨大にあるデータから価値ある知見を得る行為を「データマイニング」と言ったりしますし，
+                    データを使うこと前提に経営やマーケティングすることを指して「データドリブン」と言うことも増えているかと思います．
+                    <br><br>
+                    この思想は現代社会において益々プレゼンスを強めていて，自ずと生まれている大量のデータだけでなく，
+                    意図するデータを生成する装置を新たに実装する動きも活発です．
+                    建築学，都市計画学的文脈では，スマートビルやスマートシティといったものがこれに相当するでしょう．
+                    <br><br>
+                    仕事柄この手の話は耳にすることが多いのですが，なんとなくピンとこないこともままあります．
+                    この違和感は，以下のケースに当てはまると感じることが多いです．<br>
+                    ① とりあえずデータを集めようとすること<br>
+                    ② 可視化しさえすれば何かが得られるという期待があること<br>
+                    ③ 目的が曖昧なこと<br>
+                    これらのどこに危うさがあるのか，自戒を込めて考えてみようと思います．
+                    <br><br>
+                    データ活用は食事に例えられることがあります．わかりやすさのために，上述のケースについて食事のアナロジーの上で考えます．<br>
+                    行為を分解すると，データ活用と食事の対応関係が見えてきます．
+                    <div id="func">
+                        食材 --[下ごしらえ]--[調理]--> 料理<br>
+                        データ --[整形]--[統計分析，数理モデル]--> 知見
+                    </div>
+                    少し視点を離してみると，どうやら食事もデータ活用も，原料を加工して製品にする行為と言えそうですね．
+                    <br><br>
+                    それではまず，ケース①についてですが，食事に当てはめて言うならば，食材だけを買い漁り
+                </p>
+            </p>
+        </div>
+        <div class="contact">
+            <p> 
+                田端祥太<br>
+                e-mail:&nbsp;tbtgoat.contact@gmail.com
+            </p>
+        </div>
+        
+    </body>

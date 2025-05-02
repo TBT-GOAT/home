@@ -5,8 +5,26 @@
         <title>SOFTWARE:SHOTATABATA</title>
         <link rel="stylesheet" href="../design/style.css">
         <style>
-            
+            .explanation {
+                padding-left: 1.5em;
+                text-align: justify;
+              }
+              .headline-link {
+                font-size: 1.2em;        /* 少し大きく */
+                font-weight: bold;       /* 太字に */
+                text-decoration: none;   /* 下線を消す */
+                color: #000;             /* 黒など好みの色に */
+                display: inline-block;   /* ブロック寄りにして余白調整しやすく */
+                margin-bottom: 0.3em;    /* 下にちょっと余白 */
+              }
+              .headline-link:hover {
+                text-decoration: underline;
+              }
         </style>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
     </head>
     <body>
         <div class="global_navigation">
@@ -26,7 +44,14 @@
         <div class="global_navigation_space"></div>
         <p class="heading">SOFTWARE</p>
         <div class="main">
-            <p>工事中．</p>
+            <li>
+                <a class="headline-link" href="https://github.com/TBT-GOAT/optimal-network">optimal-network</a>
+                <p class="explanation">
+                    与えられた頂点間を結ぶネットワークで，エッジの長さの総和（≒敷設コスト）の制約を満たし，頂点間の最短路距離の総和が最小（≒輸送効率が最大）になるものを出力します．
+                    頂点数が \( n \) のとき，探索対象のネットワークは \( 2^{\frac{n(n-1)}{2}} \) 個あり，天文学的な数字（\( n = 10 \) で \( 35184372088832 \)）になりますが，
+                    <a href="https://doi.org/10.1002/net.3230090104">Dionne-Florianのアルゴリズム</a>を使って効率的に探索します．
+                </p>
+            </li>
         </div>
         <div class="contact">
             <p> 
